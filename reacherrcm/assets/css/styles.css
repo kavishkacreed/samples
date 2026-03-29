@@ -46,7 +46,7 @@
   --neutral-800: #27272A;
   --neutral-900: #18181B;
   --neutral-950: #09090B;
-  --body: #90EE90;
+  --body: linear-gradient(135deg, #90EE90 0%, #743cb3 100%);
 }
 
 [data-color-primary=color-primary-1] {
@@ -241,7 +241,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: var(--primary);
-  background-color: var(--body);
+  background: var(--body);
 }
 
 body::-webkit-scrollbar {
